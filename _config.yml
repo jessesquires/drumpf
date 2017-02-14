@@ -1,0 +1,8 @@
+title: drumpf
+description: Make Donald Drumpf Again - Safari Extension
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
