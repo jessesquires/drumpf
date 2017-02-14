@@ -4,7 +4,27 @@
 
 ## About
 
-This extension was originally created to *[Make Donald Drumpf Again](https://youtu.be/DnpO_RTSNmQ?t=20m4s)*, but now that's not funny anymore. Now, this will *Make News Real Again* by describing Trump accurately in the news.
+This extension was originally created to *[Make Donald Drumpf Again](https://youtu.be/DnpO_RTSNmQ?t=20m4s)*, but now that's not funny anymore because it's real and everything is completely fucked up. 
+
+Now, this extension will *Make News Real Again* by describing Trump accurately in the news. 
+
+It will replace words and phrases like this: 
+
+> *President Trump* <br/>
+> *Donald Trump* <br/>
+> *Trump's Administration* <br/>
+> *President Donald Trump* <br/>
+
+With more accurate words and phrases like this:
+
+> *Turncoat Donald Trump* <br/>
+> *Predator of the United States Trump* <br/>
+> *Agent of Russia Donald Trump* <br/>
+> *Nazi Trump's Administration* <br/>
+> *Sexual Predator Trump* <br/>
+> *Fascist in Chief Donald Trump* <br/>
+> *White supremacist Trump* <br/>
+> *Child murderer Donald Trump* <br/>
 
 ![](screenshot.png)
 
@@ -18,7 +38,7 @@ This extension not available in Apple's official [Safari Extension Gallery](http
 
 ## Contribute
 
-Open a [pull request](https://github.com/jessesquires/drumpf/compare) to add your own [alternative names](https://github.com/jessesquires/drumpf/blob/master/drumpf.safariextension/script.js#L15-L35).
+Open a [pull request](https://github.com/jessesquires/drumpf/compare) to add your own [alternative names](https://github.com/jessesquires/drumpf/blob/master/drumpf.safariextension/script.js#L15).
 
 ## Credits
 
