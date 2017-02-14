@@ -4,7 +4,7 @@
 
 ## About
 
-This extension was originally created to *[Make Donald Drumpf Again](https://youtu.be/DnpO_RTSNmQ?t=20m4s)*, but now that's not funny anymore because it's real and everything is completely fucked up. 
+This extension was originally created to *[Make Donald Drumpf Again](https://youtu.be/DnpO_RTSNmQ?t=20m4s)*, but that's not funny anymore because it's real and everything is [completely](https://theintercept.com/2017/02/10/trump-intends-to-follow-up-botched-yemen-military-raid-by-helping-saudis-target-civilians/) [fucked up](http://www.msnbc.com/rachel-maddow/watch/magnitude-of-trump-adviser-flynn-s-russia-scandal-gains-clarity-874908739801) and [terrifying](https://medium.com/@yonatanzunger/trial-balloon-for-a-coup-e024990891d5#.xwrbfrj7o). 
 
 Now, this extension will *Make News Real Again* by describing Trump accurately in the news. 
 
@@ -25,6 +25,8 @@ Now, this extension will *Make News Real Again* by describing Trump accurately i
 > *Fascist in Chief Donald Trump* <br/>
 > *White supremacist Trump* <br/>
 > *Child murderer Donald Trump* <br/>
+
+## Screenshot from BBC news
 
 ![](https://raw.githubusercontent.com/jessesquires/drumpf/master/screenshot.png)
 
