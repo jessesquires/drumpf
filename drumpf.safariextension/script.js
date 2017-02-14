@@ -12,9 +12,50 @@
 //  Released under an MIT license: http://opensource.org/licenses/MIT
 //
 
+var altNames = [
+    "Predator of the United States Trump",
+    "Agent of Russia Donald Trump",
+    "Turncoat Donald Trump",
+    "Sexist Trump",
+    "Sexual Predator Trump",
+    "Fascist in Chief Donald Trump",
+    "White supremacist Trump",
+    "Liar Donald Trump",
+    "Child murderer Donald Trump",
+    "Misogynist Trump",
+    "Racist Donald Trump",
+    "Homophobic Donald Trump",
+    "Nazi Donald Trump",
+    "Pathological Liar Donald Trump",
+    "Adulterer Donald Trump",
+    "Con-artist Donald Trump",
+    "Fake billionaire Trump",
+    "TV President Trump",
+    "Vladimir Putin's Bitch Donald Trump",
+]
+
+var replacedNodes = [];
+
 document.addEventListener("DOMContentLoaded", function(event) {
-    replace(document.body, "Trump", "Drumpf");
+    var fakeNames = [
+        "President Donald Trump",
+        "President Trump",
+        "Donald Trump",
+        "Trump"
+    ];
+
+    for (var i = 0; i < fakeNames.length; i++) {
+        var name = fakeNames[i];
+        replace(document.body, name, randomAltName);
+    }
 });
+
+function randomAltName() {
+    var min = 0;
+    var max = altNames.length - 1;
+    var randomIndex =  Math.floor(Math.random() * (max - min)) + min;
+    return altNames[randomIndex];
+}
 
 function replace(node, word, replacement) {
     switch (node.nodeType) {
@@ -48,13 +89,23 @@ function replaceTextInTextNode(textNode, word, replacement) {
         return;
     }
 
+    if (replacedNodes.indexOf(textNode) != -1) {
+        // Already replaced this node
+        return;
+    }
+
     // Generate a regular expression object to perform the replacement.
     var expressionForWordToReplace = new RegExp(word, "gi");
     var nodeValue = textNode.nodeValue;
-    var newNodeValue = nodeValue.replace(expressionForWordToReplace, replacement);
+
+    var newWord = replacement();
+    var newNodeValue = nodeValue.replace(expressionForWordToReplace, newWord);
 
     // Perform the replacement in the DOM if the regular expression had any effect.
     if (nodeValue !== newNodeValue) {
         textNode.nodeValue = newNodeValue;
+
+        // Track what was replaced
+        replacedNodes.push(textNode);
     }
 }

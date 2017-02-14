@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Jesse Squires</string>
 	<key>Builder Version</key>
-	<string>11601.7.7</string>
+	<string>12602.4.8</string>
 	<key>CFBundleDisplayName</key>
 	<string>drumpf</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>2.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
@@ -27,7 +27,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Make Donald Drumpf Again</string>
+	<string>Make News Real Again</string>
 	<key>DeveloperIdentifier</key>
 	<string>5VRJU68BZ5</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -36,6 +36,8 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
 			<key>Level</key>
 			<string>All</string>
 		</dict>
