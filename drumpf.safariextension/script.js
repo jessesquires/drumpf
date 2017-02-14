@@ -13,9 +13,9 @@
 //
 
 var altNames = [
+    "Turncoat Donald Trump",
     "Predator of the United States Trump",
     "Agent of Russia Donald Trump",
-    "Turncoat Donald Trump",
     "Sexist Trump",
     "Sexual Predator Trump",
     "Fascist in Chief Donald Trump",
@@ -32,6 +32,13 @@ var altNames = [
     "Fake billionaire Trump",
     "TV President Trump",
     "Vladimir Putin's Bitch Donald Trump",
+    "Traitor Donald Trump",
+    "Terrible President Trump",
+    "Businessman Failure Donald Trump",
+    "Inexperienced President Trump",
+    "Uneducated President Trump",
+    "National Disgrace Donald Trump",
+    "Incompetent Donald Trump",
 ]
 
 var replacedNodes = [];
