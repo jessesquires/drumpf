@@ -42,7 +42,9 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/jessesquires/drumpf/raw/master/drumpf.safariextz</string>
 	<key>Website</key>
-	<string>http://www.jessesquires.com</string>
+	<string>http://www.jessesquires.com/drumpf/</string>
 </dict>
 </plist>
