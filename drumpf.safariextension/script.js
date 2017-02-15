@@ -19,9 +19,9 @@ var altNames = [
     "Sexist Trump",
     "Sexual Predator Trump",
     "Fascist in Chief Donald Trump",
-    "White supremacist Trump",
+    "White Supremacist Trump",
     "Liar Donald Trump",
-    "Child murderer Donald Trump",
+    "Child Murderer Donald Trump",
     "Misogynist Trump",
     "Racist Donald Trump",
     "Homophobic Donald Trump",
@@ -29,7 +29,7 @@ var altNames = [
     "Pathological Liar Donald Trump",
     "Adulterer Donald Trump",
     "Con-artist Donald Trump",
-    "Fake billionaire Trump",
+    "Fake Billionaire Trump",
     "TV President Trump",
     "Vladimir Putin's Bitch Donald Trump",
     "Traitor Donald Trump",
@@ -45,8 +45,13 @@ var replacedNodes = [];
 
 document.addEventListener("DOMContentLoaded", function(event) {
     var fakeNames = [
+        "President Donald J Trump",
+        "President Donald J. Trump",
         "President Donald Trump",
         "President Trump",
+        "Donald John Trump",
+        "Donald J Trump",
+        "Donald J. Trump",
         "Donald Trump",
         "Trump"
     ];
